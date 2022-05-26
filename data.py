@@ -101,7 +101,3 @@ def search_data(p):
     return contatcs_Data
 
 
-#def favorite_Contact():
-
-        
- 

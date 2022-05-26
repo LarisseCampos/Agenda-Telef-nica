@@ -6,7 +6,7 @@ from tkinter import messagebox
 from unicodedata import name
 
 from data import *
-
+ 
 
 #cores
 
@@ -159,6 +159,7 @@ def refresh ():
         label_check = Button(frame_bottom, command= check, text="Confirmar", width=8, font=("Ivy 8 bold"), bg=cor_cinza, fg=cor_para_letra, relief= RAISED, overrelief= RIDGE)
         label_check.place(x=300, y=110)
 
+
     except:
         messagebox.showwarning("Dados", "Selecione uma informação na agenda para continuar")
 
@@ -199,6 +200,7 @@ def search():
         tree.insert("", "end", values = items)
 
     entry_search.delete(0,"end")
+
 
 
     
